@@ -13,4 +13,11 @@ ul {
 
 li {
     border: solid blue 1px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 200px;
+    height: auto;
 }
