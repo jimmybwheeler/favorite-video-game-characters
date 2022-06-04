@@ -1,9 +1,15 @@
 body {
-
+    border: solid red 1px;
+    margin: 0;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+}
+
+li {
+    border: solid blue 1px;
 }
