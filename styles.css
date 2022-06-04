@@ -1,6 +1,13 @@
 body {
     border: solid red 1px;
     margin: 0;
+    background-color: gray;
+}
+
+body h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
 }
 
 ul {
@@ -8,16 +15,27 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 li {
     border: solid blue 1px;
     display: flex;
     justify-content: center;
+    color: orange;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 img {
     width: 250px;
     height: auto;
+}
+
+.one, .two {
+    border: solid green 1px;
+}
+
+.middle {
+    border: solid gold 1px;
 }
