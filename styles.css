@@ -18,7 +18,7 @@ ul {
     justify-content: space-around;
 }
 
-li {
+.one li, .two li {
     border: solid blue 1px;
     display: flex;
     justify-content: center;
@@ -34,8 +34,4 @@ img {
 
 .one, .two {
     border: solid green 1px;
-}
-
-.middle {
-    border: solid gold 1px;
 }
