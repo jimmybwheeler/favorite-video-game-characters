@@ -1,5 +1,4 @@
 body {
-    border: solid red 1px;
     margin: 0;
     background-color: gray;
 }
@@ -8,6 +7,7 @@ body h1 {
     display: flex;
     justify-content: center;
     margin: 0px;
+    color: green;
 }
 
 ul {
@@ -15,11 +15,11 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 85px;
 }
 
 .one li, .two li {
-    border: solid blue 1px;
     display: flex;
     justify-content: center;
     color: orange;
@@ -33,5 +33,4 @@ img {
 }
 
 .one, .two {
-    border: solid green 1px;
 }
